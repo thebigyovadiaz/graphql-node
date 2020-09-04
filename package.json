@@ -1,0 +1,17 @@
+{
+  "name": "gql-node",
+  "version": "1.0.0",
+  "description": "GraphQL Server with NodeJS and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yovanny Diaz <thebigyovadiaz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  }
+}
